@@ -1,0 +1,43 @@
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/signup.css">
+</head>
+<body>
+  <form class='demo-form' action="/some-server-endpoint" method='post'>
+      <img src="images/logo.png" alt="Company logo">
+<div class="container">
+    <fieldset name="Sign up">
+      <h3>Sign up</h3>
+      <!-- <label for="first-name">First name</label> -->
+        <!-- <input placeholder='Dweezel' type="text" name='first-name' id='first-name' /> -->
+
+      <!-- <label for="last-name">Last name</label> -->
+      <!-- <input type="text" name='last-name' id='last-name' placeholder='Zappa' /> -->
+
+      <label for="email">Email</label>
+      <input type="email" name='email' id='email' placeholder="foo@bar.com"/>
+
+      <label for="password" required>Password #</label>
+      <input type="text" pattern='[0-9/-]*' name='password' id='password' placeholder="1234passw0rd" title="Your password" required/>
+    </fieldset>
+    <!-- <section> -->
+      <!-- <label class="question" for="feelings">How do you feel about it?</label> -->
+      <!-- <select name="feelings" id='feelings' required> -->
+        <!-- <option value="0">Great </option> -->
+        <!-- <option value="1" selected>Pretty great</option> -->
+        <!-- <option value="2">Definitely great</option> -->
+      <!-- </select> -->
+
+        <!-- <p class="question">How do you really feel, though?</p> -->
+        <!-- <input type="radio" name="feelings-2" id="ans-great-1" value="0" checked><label for="ans-great-1">Great</label> -->
+        <!-- <input type="radio" name="feelings-2" id="ans-great-2" value="1"><label for="ans-great-2">Seriously great</label> -->
+        <!-- <input type="radio" name="feelings-2" id="ans-great-3" value="2"><label for="ans-great-3">Not that not great.</label> -->
+    <!-- </section> -->
+
+    <button type='submit'>Submit</button>
+  <div class="psw"><a href="/forgot-password/new">Forgot password?</a></div>
+    <!-- <button type='reset'>Reset</button> -->
+</div>
+  </form>
+  <div class="login">Already Have An Account? <a href="/login"> Log In</a></div>
+</body>
